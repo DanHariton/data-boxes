@@ -6,3 +6,7 @@ services:
     public: true
     autowire: true      # Automatically injects dependencies in your services.
     autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
+
+    DanHariton\DataBoxes\Service\DataBox: ~
+
+    DanHariton\DataBoxes\Service\DataBoxInterface: '@DanHariton\DataBoxes\Service\DataBox'
