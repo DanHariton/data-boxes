@@ -1,0 +1,21 @@
+{
+    "name": "danhariton/data-boxes",
+    "description": "GetInfo about databox in CZ",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "DanHariton\\DataBoxes\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "symfony/dependency-injection": "^6.2",
+        "symfony/config": "^6.2",
+        "symfony/http-kernel": "^6.2",
+        "symfony/yaml": "^6.2"
+    }
+}
