@@ -7,6 +7,7 @@ namespace DanHariton\DataBoxes\Contracts;
 class DataBoxContract
 {
     public function __construct(
+        public readonly int $ico,
         public readonly string $companyName,
         public readonly string $isds,
         public readonly bool $pdz,
