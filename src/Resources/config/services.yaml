@@ -7,8 +7,8 @@ services:
     autowire: true      # Automatically injects dependencies in your services.
     autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
 
-    DanHariton\DataBoxes\Service\DataBox: ~
-    DanHariton\DataBoxes\Api\SeznamClient: ~
+  DanHariton\DataBoxes\Service\DataBox: ~
+  DanHariton\DataBoxes\Api\SeznamClient: ~
 
-    DanHariton\DataBoxes\Service\DataBoxInterface: '@DanHariton\DataBoxes\Service\DataBox'
-    DanHariton\DataBoxes\Service\SeznamClientInterface: '@DanHariton\DataBoxes\Api\SeznamClient'
+  DanHariton\DataBoxes\Service\DataBoxInterface: '@DanHariton\DataBoxes\Service\DataBox'
+  DanHariton\DataBoxes\Service\SeznamClientInterface: '@DanHariton\DataBoxes\Api\SeznamClient'
