@@ -1,9 +1,11 @@
 # Czech Data Box
 
-# Installation
+https://info.mojedatovaschranka.cz/info/cs/
 
-* composer require DanHariton/data-boxes
-* add to composer.json
+## Installation
+
+1. add to your `composer.json`
+
 ``` 
 "repositories": [
   {
@@ -13,6 +15,8 @@
  ]
 ```
 
-# Method
+2. `composer require danhariton/data-boxes`
 
-* LoadData(ICO) get information about data box by ICO.
+## Usage
+
+* Use [`\DanHariton\DataBoxes\Service\DataBoxInterface::loadData(string $ico): array`](./src/Service/DataBoxInterface.php) to get information about data box by VAT (IČO).
